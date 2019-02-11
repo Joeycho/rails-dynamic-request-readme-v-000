@@ -336,3 +336,5 @@ Started GET "/posts/1" for 127.0.0.1 at 2019-02-11 14:04:10 +0000
 Started GET "/posts/1" for 127.0.0.1 at 2019-02-11 14:05:01 +0000
 Processing by PostsController#show as HTML
   Parameters: {"id"=>"1"}
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms)
+  [1m[36m (1.2ms)[0m  [1mrollback transaction[0m
